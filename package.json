@@ -1,0 +1,27 @@
+{
+  "name": "uploaddemo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "nodemon ./server/app.js",
+    "start": "vite & nodemon ./server/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.0",
+    "element-plus": "^2.1.10",
+    "express": "^4.17.1",
+    "fs-extra": "^10.1.0",
+    "multiparty": "^4.2.2",
+    "qs": "^6.10.1",
+    "spark-md5": "^3.0.2",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.2"
+  }
+}
